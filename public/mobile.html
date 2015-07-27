@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Save The Tribe.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.base.css">
+    <link rel="stylesheet" href="css/style.mobile.css">
+  </head>
+  <body>
+    <!-- control -->
+    <div id="control" class="control hidden">
+      <div class="control-name"></div>
+      <div class="debug-message"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- registration -->
+    <div class="registration">
+      <!-- <img class="logo" src="img/Dance.gif"> -->
+      <br>
+      <h1 class="title">Squared<br>Soccer</h1>
+      <h4>A ball, many squares.</h4>
+      <br>
+      <input type="text" class="FormJoin" placeholder="Name your square">
+      <button id="js-join" class="BtnJoin">Join game</button>&nbsp;&nbsp;
+      <button id="js-whatever" class="BtnJoin BtnWhatever">About</button>
+      <h6>A game by Gabriel Gianordoli and Apon Palanuwech</h6>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- ZEPTO: it is said to be a lighter version of jQuery -->
+    <script src="js/libraries/zepto.min.js"></script>
+    <script src="js/libraries/hypnos.min.js"></script>
+    <script src="js/libraries/fastclick.min.js"></script>
+    <script src="js/libraries/hammer.min.js"></script>
+    <script src="js/socket.js"></script>
+    <script src="js/mobilecontrol.js"></script>
+  </body>
+</html>

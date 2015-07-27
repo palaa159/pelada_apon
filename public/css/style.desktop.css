@@ -1,0 +1,54 @@
+* {
+	font-family: Lato !important;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    width:      100%;
+    height:     100%;
+	padding: 0;
+	border: 0;
+	margin: 0;	    
+    overflow:   hidden;
+}
+
+#canvas-container{
+	position: absolute;
+	top:0;
+	left: 0;	
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#goalBanner {
+	transition: 1s;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 8em;
+	height: 500px;
+	top: calc(50% - 250px);
+	color: black;
+	z-index: 99;
+	opacity: 0;
+}
+
+.flying-name{
+	position: absolute;
+	top:10px;
+	left: 30px;
+	z-index: 1;
+	font-size: 1.3em;
+}
+
+footer {
+	color: #fff;
+	position: fixed;
+	z-index: 99;
+	right: 5px;
+	bottom: 8px;
+	background: #bfbfbf;
+	padding: 10px;
+}
